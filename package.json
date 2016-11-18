@@ -1,0 +1,34 @@
+{
+  "name": "hft-game-utils",
+  "version": "1.0.0",
+  "description": "Some Crappy Libs I Hacked Together To Get Some Sample HappyFunTimes Games Running",
+  "main": "dist/game-utils.js",
+  "scripts": {
+    "build": "webpack --config src/game-utils.config.js"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greggman/hft-game-utils.git"
+  },
+  "keywords": [
+    "happyfuntimes",
+    "hft",
+    "games",
+    "multiplayer"
+  ],
+  "author": "Gregg Tavares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greggman/hft-game-utils/issues"
+  },
+  "homepage": "https://github.com/greggman/hft-game-utils#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-load-plugins": "^0.1.2"
+  }
+}
